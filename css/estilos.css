@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Poppins:wght@400;500;600&display=swap');
+
+.logo{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+    top: 0;
+    height: 100px;
+    left: 0;
+    background: white;
+    z-index: 1000;
+}
+.logo a{
+    background: linear-gradient(#FFDD00 45%, #0033A0 55%, #EF4135 80%);
+    -webkit-background-clip: text; /* para navegadores basados en Webkit como Chrome y Safari */
+    background-clip: text;
+    color: transparent; /* Hace el texto transparente para que el fondo sea visible a través del texto */
+    font-size: 50px;
+    font-family: 'Gabarito';
+    margin-left: 40px;
+}
+
+.aboutin{
+    margin-top: 245px;
+    font-family: 'Gabarito';
+}
+
+.section__informacion h1{
+    text-align: center;
+    font-family: 'Gabarito';
+    color: #58555e;
+    margin-top: -50px;
+    margin-left: 450px;
+}
+.section__informacion3 {
+    text-align: center;
+    font-family: 'Gabarito';
+    color: #58555e;
+    margin-left: -350px;
+    margin-top: 60px;
+}
+
+.informacion h3{
+    font-family: 'Gabarito';
+}
+.simbolos__patrios, .aboutColombia{
+    display: table-cell;
+    
+}
+
+
+.simbolos__patrios h3{
+    text-align: center;
+}
+
+.aboutColombia h3{
+    text-align: center;
+}
+.bandera{
+    width: 200px;
+    height: 300px;
+}
+.escudo{
+    width: 200px;
+    height: 300px;
+}
+#information{
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.section__region h1{
+    text-align: center;
+    font-family: 'Gabarito';
+    color: #58555e;
+}
+/* Mapa */
+.mapadiv{
+    width: 40%;
+    margin: auto;
+}
+.mapadiv path{
+    fill: #F0E68C;
+    stroke: #8B4513;
+    stroke-width: 2px;
+}
+
+.card__regiones a{
+    text-decoration: none;
+    color: black;
+    
+}
+.card__regiones div{
+    border-color: 2px black;
+}
+.andina :hover{
+    fill: #0033A0;
+}
+
+.anregion{
+    background-color: #0033A0;
+    width: 170px;
+    margin-left: 0;
+    height: 3px;
+    margin-top: -2px;
+}
+.amazonia :hover{
+    fill: #FFDD00;
+}
+.aregion{
+    background-color: #FFDD00;
+    width: 210px;
+    margin-left: 0;
+    height: 3px;
+    margin-top: -2px;
+}
+.pacifica :hover{
+    fill: #EF4135;
+}
+.pregion{
+    background-color: #EF4135;
+    width: 180px;
+    margin-left: 0;
+    height: 3px;
+    margin-top: -2px;
+}
+.caribe :hover{
+    fill: aqua;
+}
+.cregion{
+    background-color: aqua;
+    width: 170px;
+    margin-left: 0;
+    height: 3px;
+    margin-top: -2px;
+}
+.iregion{
+    background-color: rgb(255, 0, 157);
+    width: 170px;
+    margin-left: 0;
+    height: 3px;
+    margin-top: -2px;
+}
+.orinoquia :hover{
+    fill:darkorange
+}
+.oregion{
+    background-color:darkorange;
+    width: 245px;
+    margin-left: 0;
+    height: 3px;
+    margin-top: -2px;
+}
+.card__regiones{
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.AndeanRegion hr{
+    margin-left: -12px;
+}
+.CaribeanRegion hr{
+    margin-left: -7px;
+}
+.PacificRegion a{
+    margin-left: 11px;   
+}
+.OrinoquiaRegion hr{
+    margin-left: -7px;
+}
+.AmazonRegion hr{
+    margin-left: -7px;
+}
+.InsularRegion hr{
+    margin-left: -7px;
+}
+/*Seccion Andina */
+#region{
+    display: none;
+}
+#vistas img{
+    width: 350px;
+    height: 250px;
+}
+
+
+
+@media (max-width: 992px) {
+    .card__regiones {
+        flex-direction: column;
+    }
+
+    /* Puedes ajustar el margen y el espaciado según tus necesidades */
+    .card__regiones div {
+        margin: 10px 0;
+    }
+
+    #descrip{
+        text-align: center;
+    }
+    .aboutin__informacion h1{
+        text-align: center;
+        color: #58555e;
+        font-family: 'Gabarito';
+        margin-top: -150px;
+    }
+    .col-sm{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .aboutin__informacion h1{
+        margin-left: 550px;
+        color: #58555e;
+        font-family: 'Gabarito';
+        margin-top: -150px;
+    }
+
+    #descrip{
+        text-align: center
+    }
+
+    .col-sm{
+        text-align: center;
+    }
+    
+}
+ 
+footer{
+    background:  #FFDD00;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    height: 40px;
+}
+
+#atracciones img{
+    width: 200px;
+    height: 200px;
+}
+
+#descrip{
+    font-family: 'Gabarito';
+    font-size: 20px;
+}
+
+#atracciones-seccion{
+    display: none;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
